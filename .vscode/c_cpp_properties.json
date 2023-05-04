@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vtech/test_ws/devel/include/**",
+        "/home/vtech/kinova_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/vtech/catkin_ws/src/camera_controller/include/**",
+        "/home/vtech/catkin_ws/src/outdoor_waypoint_nav/include/**",
+        "/home/vtech/catkin_ws/src/robot_localization/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

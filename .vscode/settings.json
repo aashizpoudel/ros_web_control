@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/vtech/test_ws/devel/lib/python3/dist-packages",
+        "/home/vtech/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/vtech/kinova_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

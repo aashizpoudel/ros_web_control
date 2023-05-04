@@ -1,0 +1,13 @@
+<launch>
+
+    <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+    
+
+    <node pkg="ros_web_control" type="aliencontrol" name="aliencontrol">
+        <param name="cmd" value="$(find ros_web_control)/start_server.sh"/>
+    </node>
+    <!-- For video server  -->
+    <node pkg=" web_video_server" type="web_video_server" name=" web_video_server"> 
+    
+</node>
+</launch>
