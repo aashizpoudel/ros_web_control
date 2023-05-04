@@ -1,3 +1,2 @@
 #!/bin/bash
-cd react/build
-npx --yes serve . -s -l 3000
+roscd ros_web_control/react/build && npx --yes serve . -s -l 3000
